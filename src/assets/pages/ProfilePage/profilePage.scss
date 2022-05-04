@@ -1,0 +1,16 @@
+.profile{
+    @extend %page;
+
+    &__title{
+        @extend %page-title;
+        margin-top: 10px;
+    }
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}

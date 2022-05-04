@@ -1,0 +1,23 @@
+.form{
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px 6px 19px 12px;
+    margin-top: 10px;
+
+    &-inputs{
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &-btn{
+        margin-left: auto;
+    }
+    
+    &-textarea{
+        resize: none;
+        min-height: 55px;
+    }
+}
+

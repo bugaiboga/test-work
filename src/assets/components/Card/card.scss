@@ -1,0 +1,33 @@
+.card{
+    margin-top: 10px;
+    background: $bg-color-primary;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    &__list{
+        margin: 0;
+        padding: 0;
+    }
+
+    &__list-item{
+        display: flex;
+    }
+    &__list-item + &__list-item{
+        margin-top: 7px;
+    }
+
+    &__item-text{
+        color: $text-color-secondary;
+        margin-right: 7px;
+    }
+    &__link{
+        line-height: 14px;
+        font-size: $text-size-medium;
+        color: $text-color-additional;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}

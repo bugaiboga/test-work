@@ -1,0 +1,19 @@
+.home{
+    @extend %page;
+
+    &__title{
+        @extend %page-title;
+    }
+
+    &__content{
+        max-height: 85vh;
+        overflow: auto;
+        padding-right: 10px;
+        margin: 5px 0;
+    }
+    &__subtitle{
+        line-height: 14px;
+        font-size: $text-size-medium;
+        text-align: end;
+    }
+}

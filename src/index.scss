@@ -1,0 +1,50 @@
+@import './assets/styles/reset.scss';
+@import "./assets/styles/variables";
+@import './assets/styles/layoutStyled.scss';
+
+body{
+  font-family: $text-family-default;
+  font-style: $text-style-default;
+  font-weight: $text-weight-default;
+  font-size: $text-size-default;
+  line-height: 13px;
+  color: $text-color-default;
+}
+
+.container {
+  max-width: 665px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main{
+  display: flex;
+}
+
+.btn{
+  padding: 5px 15px;
+  font-size: $text-size-medium;
+  color: $text-color-primary;
+  background: $button-color-default;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  &__secondary{
+      background: $button-color-secondary;
+  }
+  &__primary{
+      background: $button-color-primary;
+  }
+}
+
+@import './assets/pages/HomePage/homePage.scss';
+
+@import './assets/pages/ProfilePage/profilePage.scss';
+
+@import './assets/components/SidebarSort/sidebarSort.scss';
+
+@import './assets/components/Form/form.scss';
+
+@import './assets/components/Card/card.scss';
+
+@import './assets/components/Input/input.scss';
